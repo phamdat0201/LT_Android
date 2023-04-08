@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bai19</string>
+    <string-array name="my_array">
+        <item>Hà Nội</item>
+        <item>Huế</item>
+        <item>Spa</item>
+        <item>Côn Sơn</item>
+        <item>Vũng Tàu</item>
+        <item>Đà Nẵng</item>
+
+    </string-array>
+</resources>
