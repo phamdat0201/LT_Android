@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Thêm mới Album"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Mã Album:"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Tên Album:"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnXoaTrang"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:text="Xóa trắng"
+        android:textColor="#FF000000"
+        app:backgroundTint="@color/material_dynamic_neutral70"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:text="Lưu Album này"
+        android:textColor="#FF000000"
+        app:backgroundTint="@color/material_dynamic_neutral70"
+        app:layout_constraintBottom_toBottomOf="@+id/btnXoaTrang"
+        app:layout_constraintStart_toEndOf="@+id/btnXoaTrang"
+        app:layout_constraintTop_toTopOf="@+id/btnXoaTrang"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/etMaAlbum"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="68dp"
+        android:background="#FFFFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etTenAlbum"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/etMaAlbum"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etMaAlbum"
+        app:layout_constraintTop_toBottomOf="@+id/etMaAlbum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

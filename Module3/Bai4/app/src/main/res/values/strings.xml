@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bai4</string>
+    <string name="title_activity_dang_nhap_thanh_cong">DangNhapThanhCongActivity</string>
+    <string name="menu_settings">Settings</string>
+</resources>
